@@ -1,0 +1,59 @@
+/* Styles for the "About" page */
+
+/* Example: Style the section containing the about content */
+body {
+    background-image: url(project.webp); /* Replace 'project.webp' with your image file */
+    background-size: cover; /* Set the background size to cover the entire page */
+    background-position: center; /* Center the background image */
+    background-color: #fff; /* Fallback background color */
+    color: #fff; /* Text color for readability */
+    padding: 20px;
+    backdrop-filter: blur(5px);
+   
+}
+
+/* Example: Style the heading in the "About" section */
+#about h1 {
+    font-size: 42px;
+    color:  rgb(28, 172, 172);
+    
+}
+
+/* Example: Style the paragraph in the "About" section */
+#about p {
+    font-size: 20px;
+    
+}
+i {
+    position: absolute; /* Position the icon absolutely within its container */
+    right: 0; /* Adjust the right position to move the icon to the right */
+    top: 10%; /* Move the icon down by 50% of its parent's height */
+    transform: translateY(-50%); /* Correct the vertical alignment */
+    font-size: 24px; /* Set the icon size to 24 pixels */
+    color: #109c8a; 
+}
+ul{
+    list-style-type: none;
+}
+
+h3{
+    font-size: 30px;
+color: rgb(53, 226, 226);
+}
+.about-content {
+    display: flex; /* Use flexbox for layout */
+    align-items:flex-start; /* Vertically center the content */
+    justify-content: space-between; /* Create space between text and image */
+    text-align: justify;
+}
+
+/* Style the image (adjust size, margin, etc.) */
+.about-content img {
+    max-width: 25%; /* Adjust the image width as needed */
+    margin-left: 50px; /* Add spacing between text and image */
+    margin-right: 30px;
+    margin-top: 0px;
+    margin-bottom: px;
+    
+    
+}
